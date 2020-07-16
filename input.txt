@@ -13,3 +13,7 @@
 
 # Verb not in dictionary
 20090101 This sentence will fail to generate events.
+
+# Dr. Fauci not in dictionary
+20200701 Dr. Fauci warned governors that the pandemic could surge if masks are not worn.
+
