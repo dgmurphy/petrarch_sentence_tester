@@ -14,7 +14,7 @@ pip install -r requirements.txt
 cd stanford_corenlp_pywrapper
 wget http://nlp.stanford.edu/software/stanford-corenlp-full-2014-06-16.zip
 unzip stanford-corenlp-full-2014-06-16.zip
-mv stanford-corenlp-full-2014-06-16 standforstanford-corenlp
+mv stanford-corenlp-full-2014-06-16 stanford-corenlp
 cd stanford-corenlp
 wget http://nlp.stanford.edu/software/stanford-srparser-2014-07-01-models.jar
 ```
