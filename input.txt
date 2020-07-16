@@ -1,0 +1,15 @@
+# Each line is one sentence input
+# A line starts with the date, followed by the sentence text
+# YYYYMMDD sentence text here
+
+# Generates multiple events
+20130101 An armed group attacked the village of Macomia in northern Mozambique in the early morning hours of May 28, setting fire to homes, shops, schools, religious and government buildings, and forcing people to flee into the bush and neighboring villages, said the international medical humanitarian organization Doctors Without Borders/Médecins Sans Frontières (MSF) on Friday.
+
+# Both actors and verb are in dictionary, generates one event
+20091201 Barack Obama met with Tony Blair.
+
+# Verb is in dictionary but actors are not
+20090101 Roger Waters argued with David Gilmore.
+
+# Verb not in dictionary
+20090101 This sentence will fail to generate events.

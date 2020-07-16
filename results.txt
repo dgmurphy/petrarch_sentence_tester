@@ -1,0 +1,63 @@
+SENTENCE PARSE RESULTS
+2020-07-15 20:10:02.225472
+# sentences: 4
+Coding Mode:  Null Actors = FALSE
+
+SENTENCE:
+An armed group attacked the village of Macomia in northern Mozambique in the early morning hours of May 28, setting fire to homes, shops, schools, religious and government buildings, and forcing people to flee into the bush and neighboring villages, said the international medical humanitarian organization Doctors Without Borders/Médecins Sans Frontières (MSF) on Friday.
+
+sentence date: 2013 10 1
+
+Events: 3
+
+Source Actor, Target Actor, Verb Code, Verb Label
+Event 1: ---UAF	 ---CVL	 010	said
+Event 2: ---UAF	 MOZCVL	 015	said <ATTACKED>
+Event 3: ---UAF	 MEAREBHLH	 010	said
+
+Actors for event 1
+	Soure actor: armed group => ---UAF
+	Target actor: village =>  ---CVL
+	Verb code:  010
+
+Actors for event 2
+	Soure actor: armed group => ---UAF
+	Target actor: --- =>  MOZCVL
+	Verb code:  015
+
+Actors for event 3
+	Soure actor: armed group => ---UAF
+	Target actor: organization Doctors =>  MEAREBHLH
+	Verb code:  010
+
+
+
+SENTENCE:
+Barack Obama met with Tony Blair.
+
+sentence date: 2009 20 1
+
+Events: 1
+
+Source Actor, Target Actor, Verb Code, Verb Label
+Event 1: USAGOV	 GBRELI	 040	met
+
+Actors for event 1
+	Soure actor: Barack Obama => USAGOV
+	Target actor: Tony Blair =>  GBRELI
+	Verb code:  040
+
+
+
+SENTENCE:
+Roger Waters argued with David Gilmore.
+sentence date: 2009 10 1
+# of events: 0
+
+
+SENTENCE:
+This sentence will fail to generate events.
+sentence date: 2009 10 1
+# of events: 0
+
+
