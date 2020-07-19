@@ -2,11 +2,24 @@
 
 ## Install
 
+### Clone
+
+`git clone https://github.com/dgmurphy/petrarch_sentence_tester.git`
+
+`cd petrarch_sentence_tester`
+
+### Virtual Environment
+
+Create a Python2 virtual environment:
+
+```virtualenv -p /usr/bin/python2.7 venv```
+
+Activate the virtual environment:
+
+```source venv/bin/activate```
+
 ### Python Libs
 ```
-cd petrarch_sentence_tester
-virtualenv -p /usr/bin/python2.7 venv
-source venv/bin/activate
 pip install -r requirements.txt
 ```
 
